@@ -1,5 +1,5 @@
 def BinaryTree(r):
-    return ([r, [], []])
+    return [r, [], []]
 
 
 def insertLeft(root, newBranch):
