@@ -18,7 +18,7 @@ def insertRight(root, newBranch):
     t = root.pop(1)
 
     if len(t) > 1:
-        root.insert(2, [newBranch, [], t)
+        root.insert(2, [newBranch, [], t])
 
     else:
         root.insert(2, [newBranch, [], []])
@@ -40,3 +40,11 @@ def get_left_child(root):
 
 def get_right_child(root):
     return root[2]
+
+
+r = BinaryTree(4)
+insertLeft(r, 3)
+insertLeft(r, 6)
+insertRight(r, 5)
+
+print(r)
