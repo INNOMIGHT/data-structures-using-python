@@ -1,4 +1,3 @@
-from QueueImplementation import Queue
 import collections
 
 
@@ -39,9 +38,7 @@ class Solution:
 
 
 solution_check = Solution()
-print(solution_check.word_ladder('hit', 'cog', ["hot", "dot", "dog", "lot", "log", "cog"]))
-
-
-
-
-
+print(solution_check.word_ladder(
+    'hit', 'cog',
+    ["hot", "dot", "dog", "lot", "log", "cog"]
+    ))

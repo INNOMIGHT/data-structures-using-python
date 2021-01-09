@@ -38,4 +38,5 @@ class Graph:
 
 g = Graph()
 g.add_edge(1, 2, 4)
+
 print(g.nodes)
